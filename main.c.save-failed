@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+ void t_cube (int n){
+ pow (n,3);
+ }
+int main()
+{
+   int n;
+   printf("enter n number");
+   scanf("%d",&n);
+   t_cube(n);
+
+    return 0;
+}
